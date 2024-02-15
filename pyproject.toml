@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "motor-control"
+version = "0.0.1"
+authors = [
+  { name="Marius Winkelmeier", email="mariuswinkelmeier@web.de" },
+]
+description = "A tool for designing a motor controller."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD-3-Clause",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/mariuswink/mariuswink"
+Issues = "https://github.com/mariuswink/mariuswink/issues"
